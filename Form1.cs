@@ -431,16 +431,19 @@ namespace Home_accounting
                 {
                     case "Данные - Доход":
                         {
+                            if (iRowId >= (dgvData.Rows.Count-1)) iRowId = dgvData.Rows.Count-1;
                             dgvData.CurrentCell = dgvData.Rows[iRowId].Cells[0];
                         }
                         break;
                     case "Данные - Расход":
                         {
+                            if (iRowOd >= (dgvData.Rows.Count - 1)) iRowOd = dgvData.Rows.Count - 1;
                             dgvData.CurrentCell = dgvData.Rows[iRowOd].Cells[0];
                         }
                         break;
                     case "Данные - Все":
                         {
+                            if (iRowAll >= (dgvData.Rows.Count - 1)) iRowAll = dgvData.Rows.Count - 1;
                             dgvData.CurrentCell = dgvData.Rows[iRowAll].Cells[0];
                         }
                         break;
