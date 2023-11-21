@@ -7,11 +7,11 @@ namespace Home_accounting
     public partial class Form1 : Form
     {
         public Database db = new Database();
-        public String iName, iDesc = "";
-        public String iNameD, iDescD, iDateD = "";
+        public String iName = "", iDesc = "";
+        public String iNameD = "", iDescD = "", iDateD = "";
 
-        public Int32 iRowI, iRowO, iRowAll = 0;
-        public Int32 iRowId, iSumD, iId, iIdSd, iIdSO, iRowOd = 0;
+        public Int32 iRowI = 0, iRowO = 0, iRowAll = 0;
+        public Int32 iRowId = 0, iSumD = 0, iId = 0, iIdSd = 0, iIdSO = 0, iRowOd = 0;
         public Int32 tipInd = 0;
 
         public Form1()
