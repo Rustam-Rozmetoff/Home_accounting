@@ -140,7 +140,7 @@
             // calcPerToolStripMenuItem
             // 
             calcPerToolStripMenuItem.Name = "calcPerToolStripMenuItem";
-            calcPerToolStripMenuItem.Size = new Size(168, 22);
+            calcPerToolStripMenuItem.Size = new Size(180, 22);
             calcPerToolStripMenuItem.Text = "Расчёт за период";
             calcPerToolStripMenuItem.Click += calcPerToolStripMenuItem_Click;
             // 
@@ -154,7 +154,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.Font = new Font("Times New Roman", 25F, FontStyle.Bold | FontStyle.Italic);
             label1.ForeColor = Color.Blue;
             label1.Location = new Point(133, 38);
             label1.Name = "label1";
@@ -251,7 +251,7 @@
             dgvData.BackgroundColor = Color.White;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = Color.Black;
-            dataGridViewCellStyle1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle1.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             dataGridViewCellStyle1.ForeColor = Color.White;
             dataGridViewCellStyle1.NullValue = null;
             dataGridViewCellStyle1.SelectionBackColor = SystemColors.Desktop;
@@ -356,7 +356,7 @@
             dgvSpr.BackgroundColor = Color.White;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = Color.Black;
-            dataGridViewCellStyle2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle2.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             dataGridViewCellStyle2.ForeColor = Color.White;
             dataGridViewCellStyle2.NullValue = null;
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Desktop;
