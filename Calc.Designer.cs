@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calc));
             dateStart = new DateTimePicker();
             dateEnd = new DateTimePicker();
             lPer = new Label();
@@ -62,7 +63,7 @@
             // lPer
             // 
             lPer.AutoSize = true;
-            lPer.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lPer.Font = new Font("Times New Roman", 14.25F);
             lPer.ForeColor = Color.Navy;
             lPer.Location = new Point(160, 5);
             lPer.Name = "lPer";
@@ -106,7 +107,7 @@
             // total
             // 
             total.BorderStyle = BorderStyle.Fixed3D;
-            total.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            total.Font = new Font("Times New Roman", 14.25F);
             total.ForeColor = Color.Green;
             total.Location = new Point(146, 70);
             total.Name = "total";
@@ -118,7 +119,7 @@
             // exp
             // 
             exp.BorderStyle = BorderStyle.Fixed3D;
-            exp.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            exp.Font = new Font("Times New Roman", 14.25F);
             exp.ForeColor = Color.Maroon;
             exp.Location = new Point(146, 40);
             exp.Name = "exp";
@@ -130,7 +131,7 @@
             // inc
             // 
             inc.BorderStyle = BorderStyle.Fixed3D;
-            inc.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            inc.Font = new Font("Times New Roman", 14.25F);
             inc.ForeColor = Color.Navy;
             inc.Location = new Point(146, 10);
             inc.Name = "inc";
@@ -142,7 +143,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Font = new Font("Times New Roman", 14.25F);
             label6.ForeColor = Color.Green;
             label6.Location = new Point(37, 72);
             label6.Name = "label6";
@@ -153,7 +154,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Font = new Font("Times New Roman", 14.25F);
             label5.ForeColor = Color.Maroon;
             label5.Location = new Point(37, 42);
             label5.Name = "label5";
@@ -164,7 +165,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Times New Roman", 14.25F);
             label4.ForeColor = Color.Navy;
             label4.Location = new Point(37, 12);
             label4.Name = "label4";
@@ -174,7 +175,7 @@
             // 
             // bCalc
             // 
-            bCalc.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            bCalc.Font = new Font("Segoe UI", 10F);
             bCalc.Location = new Point(95, 178);
             bCalc.Name = "bCalc";
             bCalc.Size = new Size(88, 35);
@@ -185,7 +186,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Font = new Font("Segoe UI", 10F);
             button1.Location = new Point(205, 178);
             button1.Name = "button1";
             button1.Size = new Size(88, 35);
@@ -208,6 +209,7 @@
             Controls.Add(dateEnd);
             Controls.Add(dateStart);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Calc";
             StartPosition = FormStartPosition.CenterScreen;
